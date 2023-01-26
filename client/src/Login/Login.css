@@ -1,0 +1,18 @@
+.forgot{
+    background: rgba(255, 255, 255, 0);
+    border: rgba(255, 255, 255, 0);
+
+    position: absolute;
+    width: 217px;
+    height: 24px;
+    left: 198px;
+    top: 507px;
+
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}

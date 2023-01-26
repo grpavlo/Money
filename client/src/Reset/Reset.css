@@ -1,0 +1,31 @@
+.youEmailText{
+    position: absolute;
+    width: 326px;
+    height: 80px;
+    left: 9px;
+    top: 30px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 80px;
+
+    color: #FFFFFF;
+}
+
+.newPasswordText{
+    position: absolute;
+    width: 471px;
+    height: 75px;
+    left: -76px;
+    top: 37px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 75px;
+
+    color: #FFFFFF;
+}
+
+

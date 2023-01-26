@@ -1,0 +1,65 @@
+.textOTHER{
+    position: absolute;
+    width: 153px;
+    height: 60px;
+    left: 132px;
+    top: 0px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+
+.GtextIncome{
+    position: absolute;
+    width: 163px;
+    height: 54px;
+    left: 0px;
+    top: 80px;
+    background: rgba(23, 167, 0, 0.69);
+    border-radius: 28px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+.RtextIncome{
+    position: absolute;
+    width: 109px;
+    height: 36px;
+    left: 27px;
+    top: 150px;
+    background: #DB0000;
+    border-radius: 28px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.buttonSALARY {
+    position: absolute;
+    width: 83px;
+    height: 83px;
+    left: 131px;
+    top: 60px;
+    background: #0EAE00;
+    border-radius: 124px;
+    border: rgba(255, 255, 255, 0);
+}
+
+.buttonOTHER {
+    position: absolute;
+    width: 83px;
+    height: 83px;
+    left: 172px;
+    top: 60px;
+    background: #00F0FF;
+    border-radius: 124px;
+}

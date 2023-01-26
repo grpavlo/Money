@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body{
+    background: #1f1f1f;
+}
+
+
+.main{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+
+    background: linear-gradient(247.06deg, rgba(101, 0, 202, 0.22) 4.37%, rgba(0, 11, 109, 0.22) 100%);
+}
+
+.form{
+    position: absolute;
+    width: 648px;
+    height: 716px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+
+}
+
+.background{
+    position: absolute;
+    width: 613px;
+    height: 716px;
+    left: 0px;
+    top: 0px;
+
+    box-sizing: border-box;
+
+    box-shadow: -100px 50px 4px rgba(0, 0, 0, 0.25);
+
+
+    border-radius: 88px;
+
+    border: 5px solid transparent;
+    background: linear-gradient(247.06deg, rgba(101, 0, 202, 0.22) 4.37%, rgba(0, 11, 109, 0.22) 100%) border-box;
+    backdrop-filter: blur(7px);
+
+}
+
+.backgroundBorder{
+    width: 613px;
+    height: 716px;
+    border-radius: 88px;
+
+    border: 5px solid transparent;
+    background: linear-gradient(247.06deg, rgba(101, 0, 202, 0.22) 4.37%, rgba(0, 11, 109, 0.22) 100%) border-box;
+
+}
+
+.email{
+    position: absolute;
+    width: 344px;
+    height: 245px;
+    left: 127px;
+    top: 0px;
+}
+
+.emailText{
+    position: absolute;
+    width: 177px;
+    height: 80px;
+    left: 83px;
+    top: 24px;
+
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 80px;
+
+    color: #FFFFFF;
+}
+
+.emailInput{
+    position: absolute;
+    width: 344px;
+    height: 125px;
+    left: 0px;
+    top: 120px;
+
+    border-radius: 88px;
+    text-align: center;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 80px;
+
+    background: rgba(255, 255, 255, 0);
+
+    border: rgba(255, 255, 255, 0);
+
+    color: #FFFFFF;
+}
+
+.password{
+    position: absolute;
+    width: 344px;
+    height: 245px;
+    left: 127px;
+    top: 239px;
+}
+
+.passwordText{
+    position: absolute;
+    width: 342px;
+    height: 80px;
+    left: 1px;
+    top: 38px;
+
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 80px;
+
+
+    color: #FFFFFF;
+}
+
+.passwordInput{
+    position: absolute;
+    width: 344px;
+    height: 125px;
+    left: 0px;
+    top: 120px;
+
+    border-radius: 88px;
+
+    text-align: center;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 80px;
+
+    background: rgba(255, 255, 255, 0);
+
+    border: rgba(255, 255, 255, 0);
+
+    color: #FFFFFF;
+}
+
+.registration{
+    position: absolute;
+    width: 344px;
+    height: 125px;
+    left: 127px;
+    top: 554px;
+}
+
+.registrationButton{
+    position: absolute;
+    width: 344px;
+    height: 125px;
+    left: 0px;
+    top: 0px;
+
+    border-radius: 88px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+
+    color: #A9A9A9;
+    background: rgba(255, 255, 255, 0);
+
+    border: rgba(255, 255, 255, 0);
+
+}
+
+.login{
+    position: absolute;
+    width: 99px;
+    height: 121px;
+    right: 0px;
+    top: 309px;
+
+}
+
+.loginItem{
+    position: absolute;
+    width: 90px;
+    height: 121px;
+    right: 25px;
+    top: 0px;
+
+    background: #150041;
+    border-radius: 60.5px 0px 0px 60.5px;
+}
+
+.loginButton{
+    background: rgba(255, 255, 255, 0);
+    border: rgba(255, 255, 255, 0);
+}
+
+.imgRegistration{
+    position: absolute;
+    width: 73px;
+    height: 63px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.back{
+    position: absolute;
+    width: 520px;
+    height: 559px;
+    left: 128px;
+    top: 120px;
+
+}
+
+.emailBack{
+    position: absolute;
+    width: 344px;
+    height: 125px;
+    left: 0px;
+    top: 0px;
+
+    background: #3C00E6;
+    border-radius: 88px;
+}
+
+.passwordBack{
+    position: absolute;
+    width: 344px;
+    height: 125px;
+    left: 0px;
+    top: 238px;
+
+    background: #3C00E6;
+    border-radius: 88px;
+}
+
+.registrationBack{
+    position: absolute;
+    width: 344px;
+    height: 125px;
+    left: 0px;
+    top: 434px;
+
+    background: #3C00E6;
+    border-radius: 88px;
+}
+
+.loginBack{
+    position: absolute;
+    width: 125px;
+    height: 121px;
+    left: 395px;
+    top: 189px;
+
+    background: #150041;
+}
+
+@media only  screen and (max-width: 750px) {
+
+}

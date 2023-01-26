@@ -1,0 +1,16 @@
+{
+  "name": "server sn",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "nodemon ./server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.4",
+    "pg": "^8.8.0",
+    "react-modal": "^3.16.1",
+    "react-router-dom": "^6.4.5",
+    "request": "^2.88.2",
+    "socket.io": "^4.5.4"
+  }
+}

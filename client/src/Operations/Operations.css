@@ -1,0 +1,111 @@
+.oneLi{
+
+
+
+    width: 567px;
+    height: 79px;
+    left: 475px;
+
+
+    background: #3300FF;
+    border-radius: 58px;
+}
+
+.list{
+    position: fixed;
+    overflow: auto;
+
+    width: 613px;
+    height: 450px;
+    left: 52%;
+    top: 50%;
+
+    transform: translate(-50%,-50%);
+}
+
+.nameArr{
+    position: absolute;
+    width: 241px;
+    height: 60px;
+
+    left: 10%;
+
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 60px;
+
+    color: #FFFFFF;
+}
+
+.moneyArrR{
+    position: absolute;
+    width: 50px;
+    height: 60px;
+
+    right: 10%;
+
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 60px;
+
+    color: #ff0000;
+
+
+}
+
+.buttonList{
+    background-color: rgba(255, 255, 255, 0);
+
+    border: rgba(255, 255, 255, 0);
+
+}
+
+.moneyArrG{
+    position: absolute;
+    width: 50px;
+    height: 60px;
+
+    right: 10%;
+
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 60px;
+
+    color: #1aff00;
+}
+
+.numberDelete{
+    position: absolute;
+    width: 121px;
+    height: 75px;
+    left: 336px;
+    top: 428px;
+
+
+
+
+    background: rgba(0, 0, 0, 0.21);
+    border-radius: 42px;
+
+    border: rgba(255, 255, 255, 0);
+
+
+}
+
+.numberOkDelete{
+    position: absolute;
+    width: 24.56px;
+    height: 26px;
+    left: 50px;
+    top: 23px;
+}
+
+ol{
+    list-style-type: none;
+}
